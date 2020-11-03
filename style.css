@@ -18,6 +18,7 @@ h1 {
   font-size: 70px;
   font-family: 'Montserrat', sans-serif;
   padding-top: 20px;
+  margin: 0;
 }
 
 h2 {
@@ -77,8 +78,8 @@ ul {
 /* Classes */
 
 .about, .intro, .contact {
-  margin-left: 500px;
-  margin-right: 500px;
+  margin-left: 30%;
+  margin-right: 30%;
   text-align: left;
 }
 
