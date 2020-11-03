@@ -1,0 +1,114 @@
+/* Elements */
+
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: #ddbea9;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: #495057;
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #495057;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #495057;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #ddbea9;
+  margin: 0;
+}
+
+hr {
+  border-top: 2px #a5a58d solid;
+  width: 30%;
+}
+
+main {
+  background-color: #f0efeb;
+}
+
+nav {
+  color: #495057;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+p, ul, ol {
+  color: #495057;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  line-height: 2;
+}
+
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+
+
+/* Classes */
+
+.about, .intro, .contact {
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.img-sam {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.img-map {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 250px;
+}
+
+
+/* IDs */
+
+#intro, #about, #contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* Psuedo Classes */
+
+a:link {color: #495057;}
+a:visited {color: #a5a58d;}
+a:hover {color: #cb997e; }
+a:active {color: #606c38; }
